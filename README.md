@@ -1,6 +1,10 @@
 # BESS Dispatch Optimizer
 
-Battery Energy Storage System (BESS) dispatch optimizer with Coulomb Counter-based SoC estimation, PyBaMM SEI degradation modeling, and State of Health tracking.
+Reinforcement learning driven Energy Storage System (BESS) dispatch optimizer using three sophisticated components: 
+(1) Coulomb counter for real-time SoC estimation, 
+(2) physics-based SEI degradation modeling using PyBaMM for battery SoH tracking.
+(3) Proximal Policy Optimization (PPO) agent that learns optimal charge/discharge strategies
+Learns to balance short-term revenue against long-term battery health
 
 ## Overview
 
